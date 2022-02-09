@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a961cc5-99b8-4477-9855-2febf82d3d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nju/vblog/bean/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nju/vblog/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nju/vblog/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nju/vblog/mapper/CategoryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nju/vblog/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nju/vblog/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nju/vblog/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nju/vblog/mapper/TagsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nju/vblog/mapper/TagsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nju/vblog/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nju/vblog/mapper/CategoryMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/nju/vblog/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/nju/vblog/bean" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -47,6 +48,7 @@
       <recent name="com.nju.vblog.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\IdeaProjects\BlogManager\vblog-java\src\main\java\com\nju\vblog\bean" />
       <recent name="C:\Users\lenovo\IdeaProjects\BlogManager\vblog-java\src\main\java\com\nju\vblog\mapper" />
     </key>
   </component>
@@ -82,11 +84,34 @@
       <option name="presentableId" value="Default" />
       <updated>1644218569981</updated>
       <workItem from="1644218575241" duration="2866000" />
-      <workItem from="1644373952251" duration="249000" />
+      <workItem from="1644373952251" duration="604000" />
+      <workItem from="1644374569491" duration="264000" />
     </task>
+    <task id="LOCAL-00001" summary="新增栏目管理模块">
+      <created>1644374347251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644374347251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增栏目管理模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增栏目管理模块" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="266" y="9" key="CommitChangelistDialog2" timestamp="1644374345716">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="266" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1644374345716" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1644374577979">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1644374577979" />
   </component>
 </project>
