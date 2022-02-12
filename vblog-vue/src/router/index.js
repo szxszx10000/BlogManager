@@ -85,7 +85,7 @@ export default new Router({
           component: CateMana
         }
       ]
-    }, {
+    }, /*{
       path: '/home',
       component: Home,
       name: '数据统计',
@@ -98,6 +98,6 @@ export default new Router({
           component: DataCharts
         }
       ]
-    }
+    }*/
   ]
 })

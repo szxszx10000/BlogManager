@@ -2,9 +2,9 @@
   <el-container class="article_list">
     <el-main class="main">
       <el-tabs v-model="activeName" @tab-click="handleClick" type="card">
-        <el-tab-pane label="全部文章" name="all">
+<!--        <el-tab-pane label="全部文章" name="all">
           <blog_table state="-1" :showEdit="false" :showDelete="false" :showRestore="false" :activeName="activeName"></blog_table>
-        </el-tab-pane>
+        </el-tab-pane>-->
         <el-tab-pane label="已发表" name="post">
           <blog_table state="1" :showEdit="true" :showDelete="true" :showRestore="false" :activeName="activeName"></blog_table>
         </el-tab-pane>
@@ -17,9 +17,9 @@
         <el-tab-pane label="博客管理" name="blogmana" v-if="isAdmin">
           <blog_table state="-2" :showEdit="false" :showDelete="true" :showRestore="false" :activeName="activeName"></blog_table>
         </el-tab-pane>
-        <el-tab-pane label="博客配置" name="blogcfg">
+<!--        <el-tab-pane label="博客配置" name="blogcfg">
           <blog_cfg></blog_cfg>
-        </el-tab-pane>
+        </el-tab-pane>-->
       </el-tabs>
     </el-main>
   </el-container>
